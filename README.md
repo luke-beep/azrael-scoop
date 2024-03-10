@@ -1,42 +1,40 @@
-# Scoop Bucket Template
+# Azrael's Scoop Bucket
 
-<!-- Uncomment the following line after replacing placeholders -->
 [![Tests](https://github.com/luke-beep/azrael-scoop/actions/workflows/ci.yml/badge.svg)](https://github.com/luke-beep/azrael-scoop/actions/workflows/ci.yml) [![Excavator](https://github.com/luke-beep/azrael-scoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/luke-beep/azrael-scoop/actions/workflows/excavator.yml)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+This is a [Scoop](https://scoop.sh) bucket for various tools and applications that I have created.
 
-## How do I use this template?
+## Usage
 
-1. Generate your own copy of this repository with the "Use this template"
-   button.
-2. Allow all GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
-   - Select `Allow all actions and reusable workflows`.
-   - Then `Save`.
-3. Allow writing to the repository from within GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
-   - Select `Read and write permissions`.
-   - Then `Save`.
-4. Document the bucket in `README.md`.
-5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
-6. Create new manifests by copying `bucket/app-name.json.template` to
-   `bucket/<app-name>.json`.
-7. Commit and push changes.
-8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+To add this bucket to your Scoop installation, run the following command:
 
-## How do I install these manifests?
-
-After manifests have been committed and pushed, run the following:
-
-```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+```powershell
+scoop bucket add azrael https://github.com/luke-beep/azrael-scoop
 ```
 
-## How do I contribute new manifests?
+## Apps
 
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
+| App Name | Description | License | Version | Maintainer |
+|----------|-------------|---------|---------|------------|
+| [Algorithm Visualizer](https://github.com/luke-beep/AlgorithmVisualizer) | An interactive tool that helps in visualizing algorithms, making complex concepts easier to understand. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/AlgorithmVisualizer.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [Az](https://github.com/luke-beep/AlgorithmVisualizer) | An ls replacement for Windows. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/az.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [GSR](https://github.com/luke-beep/GSR) | A lightweight script that generates a system report for troubleshooting purposes. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/GSR.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [MHRT](https://github.com/luke-beep/MeasureHighResolutionTimer) | Queries the QPC function call for the delta. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/MeasureHighResolutionTimer.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [Ms](https://github.com/luke-beep/MeasureSleep) | A simple measure sleep application using Multimedia Timer Resolution. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/MeasureSleep.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [OA](https://github.com/luke-beep/ps-optimize-assemblies) | Optimize-Assemblies is designed to optimize .NET assemblies, particularly those related to PowerShell, using the Native Image Generator (NGEN). | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/ps-optimize-assemblies.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [qLiteVM](https://github.com/luke-beep/qLiteVM) | A streamlined virtual machine solution for Windows, focusing on simplicity and ease of use. Based on the LC3 architecture. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/qLiteVM.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [WIC](https://github.com/luke-beep/WindowsImageComparator) | A tool designed for efficient image comparison and management, specifically for Windows environments. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/WindowsImageComparator.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [Zen](https://github.com/luke-beep/zen) | Simple, free and efficient ad-blocker and privacy guard for Windows, macOS and Linux. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/zen.svg)] | [luke-beep](https://github.com/luke-beep) |
+
+## License
+
+[MIT](LICENSE)
+
+## Issues
+
+If you encounter any issues, please open an issue on the repository using one of the provided templates.
+
+---
+
+**<div align="center" id="footer">© 2024 Azrael. All rights reserved. <div>**
+<br>
