@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "description": "An ls replacement for Windows.",
+    "homepage": "https://github.com/luke-beep/az",
+    "license": "MIT License",
+    "url": "https://github.com/luke-beep/az/releases/latest/download/az.exe",
+    "bin": "az.exe"
+}
