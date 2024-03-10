@@ -4,5 +4,6 @@
     "homepage": "https://github.com/luke-beep/az",
     "license": "MIT License",
     "url": "https://github.com/luke-beep/az/releases/latest/download/az.exe",
-    "bin": "az.exe"
+    "bin": "az.exe",
+    "hash": "10b604381f289eaaa241402847da0180a8996d9c47662da34e1da0410cb6caa9"
 }
