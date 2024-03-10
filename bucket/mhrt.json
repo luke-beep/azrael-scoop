@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "Queries the QPC function call for the delta.",
     "homepage": "https://github.com/luke-beep/MeasureHighResolutionTimer",
     "license": "MIT License",
