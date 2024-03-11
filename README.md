@@ -25,6 +25,7 @@ scoop bucket add azrael https://github.com/luke-beep/azrael-scoop
 | [qLiteVM](https://github.com/luke-beep/qLiteVM) | A streamlined virtual machine solution for Windows, focusing on simplicity and ease of use. Based on the LC3 architecture. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/qLiteVM.svg)] | [luke-beep](https://github.com/luke-beep) |
 | [WIC](https://github.com/luke-beep/WindowsImageComparator) | A tool designed for efficient image comparison and management, specifically for Windows environments. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/WindowsImageComparator.svg)] | [luke-beep](https://github.com/luke-beep) |
 | [Zen](https://github.com/luke-beep/zen) | Simple, free and efficient ad-blocker and privacy guard for Windows, macOS and Linux. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/zen.svg)] | [luke-beep](https://github.com/luke-beep) |
+| [CenterWindowGUI](https://github.com/luke-beep/CenterWindowGUI) | A simple, but lightweight application to automatically center foreground windows. | MIT | [![GitHub release](https://img.shields.io/github/release/luke-beep/CenterWindowGUI.svg)] | [luke-beep](https://github.com/luke-beep) |
 
 ## License
 
