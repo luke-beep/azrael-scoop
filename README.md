@@ -26,6 +26,7 @@ scoop bucket add azrael https://github.com/luke-beep/azrael-scoop
 | [WIC](https://github.com/luke-beep/WindowsImageComparator) | A tool designed for efficient image comparison and management, specifically for Windows environments. | MIT | ![GitHub release](https://img.shields.io/github/release/luke-beep/WindowsImageComparator.svg) | [luke-beep](https://github.com/luke-beep) |
 | [Zen](https://github.com/luke-beep/zen) | Simple, free and efficient ad-blocker and privacy guard for Windows, macOS and Linux. | MIT | ![GitHub release](https://img.shields.io/github/release/luke-beep/zen.svg) | [luke-beep](https://github.com/luke-beep) |
 | [CenterWindowGUI](https://github.com/luke-beep/CenterWindowGUI) | A simple, but lightweight application to automatically center foreground windows. | MIT | ![GitHub release](https://img.shields.io/github/release/luke-beep/CenterWindowGUI.svg) | [luke-beep](https://github.com/luke-beep) |
+| [ssharp](https://github.com/luke-beep/ssharp) | A simple SSH client written in C#. | MIT | ![GitHub release](https://img.shields.io/github/release/luke-beep/ssharp.svg) | [luke-beep](https://github.com/luke-beep) |
 
 ## License
 
