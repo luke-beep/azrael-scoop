@@ -1,9 +1,0 @@
-{
-    "version": "1.0.0",
-    "description": "Lightweight tool that allows users to customize window borders.",
-    "homepage": "https://github.com/luke-beep/Prism",
-    "license": "MIT License",
-    "url": "https://github.com/luke-beep/Prism/releases/latest/download/Prism.exe",
-    "bin": "Prism.exe",
-    "hash": "7B036D26F8E8002ED28B97D86B16D619AB126B33540EA84B0D37EA0CBA3D0061"
-}
