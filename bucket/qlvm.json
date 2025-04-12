@@ -1,6 +1,6 @@
 {
     "version": "1.0.0-CSHARP",
-    "description": "A streamlined virtual machine solution for Windows, focusing on simplicity and ease of use. Based on the LC3 architecture.",
+    "description": "A virtual machine based on the LC3 architecture.",
     "homepage": "https://github.com/luke-beep/qLiteVM",
     "license": "MIT License",
     "url": "https://github.com/luke-beep/qLiteVM/releases/download/C%23/qLiteVM.exe",
